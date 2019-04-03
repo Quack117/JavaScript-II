@@ -11,7 +11,7 @@ console.log(rHello())
 
 
 // ==== Challenge 2: Create a counter function ====
-let count = 0;
+var count = 0;
 const counter = () => {
   
   return function() {
@@ -28,7 +28,8 @@ console.log(newCounter())
 // newCounter(); // 2
 
 // ==== Challenge 3: Create a counter function with an object that can increment and decrement ====
-let count = 0;
+//let count = 0;
+var count = 0; // reseting count back to zero for challenge 3. That's why I used var count. I could have used let count and let count2, but meh. 
 const increment = () => {
   
   return function() {
